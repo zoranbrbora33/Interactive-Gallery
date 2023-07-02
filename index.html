@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Web gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="CSS/ericmeyer.css">
+    <link rel="stylesheet" href="vendor/css/lightbox.min.css"> 
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    
+  </head>
+  <body>
+    
+    
+     <video autoplay loop muted poster="screenshot.jpg" id="background">
+       <source src="background4.mp4" type="video/mp4">
+    </video> 
+    
+    
+    <header class="main-header">
+      <h1 class="logo">Interactive <br> Photo <br> Gallery</h1>
+      
+      
+      
+      <form id="live-search" action="live-search" class="styled" method="post">
+        <fieldset>
+          <input type="text" class="text-input" id="filter" value="" placeholder="Search Photos"/>
+          <span id="filter-count"></span>
+        </fieldset>
+      </form>
+      
+    </header>
+    
+        
+
+    
+    
+   <section class="gallery">
+     <h2>Gallery</h2>
+      <div>
+      
+      <a class="example-image-link"  href="Images/01.jpg" data-lightbox="example-set" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."><img class="example-image" src="Images/thumbnails/Field-01.jpg" alt="Field"/><span class="span">I love hay bales. Took this snap on a drive through the countryside past some straw fields.</span></a>
+      
+      <a class="example-image-link"  href="Images/02.jpg" data-lightbox="example-set" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here."><img class="example-image" src="Images/thumbnails/Lake-02.jpg" alt=""/><span class="span">The lake was so calm today. We had a great view of the snow on the mountains from here</span></a>
+      
+      <a class="example-image-link"  href="Images/03.jpg" data-lightbox="example-set" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below."><img class="example-image" src="Images/thumbnails/Canyon-03.jpg" alt=""/><span class="span">I hiked to the top of the mountain and got this picture of the canyon and trees below.</span></a>
+      
+      <a class="example-image-link"  href="Images/04.jpg" data-lightbox="example-set" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."><img class="example-image" src="Images/thumbnails/Icberg-04.jpg" alt=""/><span class="span">It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</span></a>
+      
+      <a class="example-image-link"  href="Images/05.jpg" data-lightbox="example-set" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.."><img class="example-image" src="Images/thumbnails/RedCliffs-05.jpg" alt=""/><span class="span">The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons...</span></a>
+      
+      <a class="example-image-link"  href="Images/06.jpg" data-lightbox="example-set" data-title="Fall is coming, I love when the leaves on the trees start to change color.."><img class="example-image" src="Images/thumbnails/Fall-06.jpg" alt=""/><span class="span">Fall is coming, I love when the leaves on the trees start to change color..</span></a>
+      
+      <a class="example-image-link"  href="Images/07.jpg" data-lightbox="example-set" data-title="I drove past this plantation yesterday, everything is so green!"><img class="example-image" src="Images/thumbnails/Plantation-07.jpg" alt=""/><span class="span">I drove past this plantation yesterday, everything is so green!</span></a>
+      
+      <a class="example-image-link"  href="Images/08.jpg" data-lightbox="example-set" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!"><img class="example-image" src="Images/thumbnails/Sanddunes-08.jpg" alt=""/><span class="span">My summer vacation to the Oregon Coast. I love the sandy dunes!</span></a>
+      
+      <a class="example-image-link"  href="Images/09.jpg" data-lightbox="example-set" data-title="We enjoyed a quiet stroll down this countryside lane."><img class="example-image" src="Images/thumbnails/Lane-09.jpg" alt=""/><span class="span">We enjoyed a quiet stroll down this countryside lane.</span></a>
+      
+      <a class="example-image-link"  href="Images/10.jpg" data-lightbox="example-set" data-title="Sunset at the coast! The sky turned a lovely shade of orange."><img class="example-image" src="Images/thumbnails/Sunset-10.jpg" alt=""/><span class="span">Sunset at the coast! The sky turned a lovely shade of orange.</span></a>
+      
+       <a class="example-image-link"  href="Images/11.jpg" data-lightbox="example-set" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking."><img class="example-image" src="Images/thumbnails/Cave-11.jpg" alt=""/><span class="span">I did a tour of a cave today and the view of the landscape below was breathtaking.</span></a>
+      
+       <a class="example-image-link"  href="Images/12.jpg" data-lightbox="example-set" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in"><img class="example-image" src="Images/thumbnails/Meadow-12.jpg" alt=""/><span class="span">I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in</span></a>
+        
+        
+        
+      
+     
+     </div>
+    </section>
+    
+    
+    
+    
+    
+    <footer class="main-footer">
+      <p>&copy; 2016 Zoran Brbora</p>
+    </footer>
+         
+          
+           
+    
+       <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+       <script src="vendor/js/lightbox-plus-jquery.min.js"></script>
+       <script src="js/interactive.js"></script>
+       <script src="js/search.js"></script>
+              
+    
+  </body>
+</html>
